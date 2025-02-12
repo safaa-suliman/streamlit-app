@@ -1,7 +1,7 @@
 import os
 import re
 import nltk
-from nltk.corpora import stopwords
+from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Ensure required NLTK resources are downloaded
