@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Ensure required NLTK resources are downloaded
-nltk_data_path = os.path.join(os.getcwd(), 'nltk_data')
+nltk_data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'nltk_data')
 nltk.data.path.append(nltk_data_path)
 required_nltk_resources = ['punkt', 'stopwords']
 
