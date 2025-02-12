@@ -11,7 +11,7 @@ required_nltk_resources = ['punkt', 'stopwords']
 
 for resource in required_nltk_resources:
     try:
-        nltk.data.find(f'tokenizers/{resource}')
+        nltk.data.find(f'{resource}')
     except LookupError:
         nltk.download(resource, download_dir=nltk_data_path)
 
