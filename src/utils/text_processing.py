@@ -1,8 +1,8 @@
 import os
 import re
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+from nltk_data.corpus import stopwords
+from nltk_data.tokenize import word_tokenize
 
 # Ensure required NLTK resources are downloaded
 nltk_data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'nltk_data')
