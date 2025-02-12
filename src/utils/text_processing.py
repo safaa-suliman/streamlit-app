@@ -1,13 +1,14 @@
 import os
 import re
 import nltk
-from nltk_data.corpora import stopwords
-from nltk_data.tokenizers import word_tokenize
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 # Ensure required NLTK resources are downloaded
 nltk_data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'nltk_data')
 nltk.data.path.append(nltk_data_path)
 required_nltk_resources = ['punkt', 'stopwords']
+
 
 for resource in required_nltk_resources:
     try:
