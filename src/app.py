@@ -6,7 +6,7 @@ from sklearn.decomposition import NMF
 from nltk.tokenize import sent_tokenize
 from utils.text_processing import preprocess_text
 import nltk
-nltk.download('punkt')
+
 
 
 def extract_dates(text):
