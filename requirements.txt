@@ -3,5 +3,6 @@ pandas
 PyMuPDF
 scikit-learn
 nltk
-PyPDF2==3.0.1 
+PyPDF2==3.0.1
+plotly==5.20.0
 
