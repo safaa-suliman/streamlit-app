@@ -8,6 +8,9 @@ from wordcloud import WordCloud
 
 # Ensure necessary resources are available
 nltk.download('punkt')
+nltk.download('stopwords')
+
+
 
 def extract_text_from_pdf(uploaded_file):
     """Extract text from a PDF file."""
