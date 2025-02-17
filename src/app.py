@@ -13,6 +13,9 @@ from textblob import TextBlob
 
 nltk.download('punkt')
 nltk.download('stopwords')
+import nltk
+nltk.download('punkt')
+
 
 # Function to preprocess text
 def preprocess_text(text):
