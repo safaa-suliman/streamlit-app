@@ -6,3 +6,4 @@ nltk
 PyPDF2==3.0.1
 plotly==5.20.0
 textblob==0.17.1
+matplotlib
