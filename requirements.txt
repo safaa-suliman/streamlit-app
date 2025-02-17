@@ -3,3 +3,5 @@ pandas
 PyMuPDF
 scikit-learn
 nltk
+PyPDF2==3.0.1 
+
